@@ -3,7 +3,7 @@ module.exports = message => {
 		
 	if (!member) {
 		return message.reply(
-			`Qui essayez vous de banir ? Vous avez juste mentionné un utilisateur.`
+			`Qui essayez vous de banir ? Vous n'avez pas mentionné d'utilisateurs.`
 		)
 	}
 		
