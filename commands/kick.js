@@ -8,7 +8,7 @@ module.exports = message => {
 	}
 		
 	if (!member.kickable) {
-		message.reply(`Je ne peux pas banir cet utilisateur ! Désolée.`)
+		return message.reply(`Je ne peux pas banir cet utilisateur ! Désolée.`)
 	}
 		
 	return member
